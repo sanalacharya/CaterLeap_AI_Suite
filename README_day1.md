@@ -1,1 +1,0 @@
-#day1 - Variables and data types learned about variables, strings, floats and f-strings. Created aMovie Calculator program using user input.
