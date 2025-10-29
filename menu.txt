@@ -1,0 +1,8 @@
+Welcome to CaterLeap Café
+Today's Specials:
+1. Paneer Butter Masala - ₹180
+2. Veg Biryani - ₹150
+3. Gobi Manchurian - ₹130
+4. Butter Naan - ₹50
+3. Gobi Manchurian - ₹130
+4. Butter Naan - ₹50
