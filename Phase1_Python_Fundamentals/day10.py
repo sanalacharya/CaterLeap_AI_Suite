@@ -33,6 +33,43 @@ class Car(Vehicle):
         self.display()
         print(f"Fuel Type: {self.fuel_type}")
 
+#Method Overridinig
+
 # Example
 car1 = Car("Tesla", 4, "Electric")
 car1.show_details()
+
+class Employee:
+    def work(self):
+        print("Employee works 8 hours a day.")
+
+class Developer(Employee):
+    def work(self):
+        print("Developer writes code 10 hours a day.")
+
+#multilevel inheritance
+
+# Example
+emp = Employee()
+dev = Developer()
+
+emp.work()   # Parent method
+dev.work()   # Overridden method
+
+
+class GrandParent:
+    def greet(self):
+        print("Hello from GrandParent!")
+
+class Parent(GrandParent):
+    def show(self):
+        print("Hello from Parent!")
+
+class Child(Parent):
+    def display(self):
+        print("Hello from Child!")
+
+child = Child()
+child.greet()
+child.show()
+child.display()
