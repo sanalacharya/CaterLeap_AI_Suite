@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Inheritance
+=======
+#Inheritance
+>>>>>>> phase-2
 # Parent Class
 class Animal:
     def speak(self):
@@ -15,7 +19,11 @@ dog.speak()   # inherited method
 dog.bark()    # child class method
 
 
+<<<<<<< HEAD
 #Constroctor inheritance
+=======
+#Using super() and Constructor Inheritance
+>>>>>>> phase-2
 class Vehicle:
     def __init__(self, brand, wheels):
         self.brand = brand
@@ -33,12 +41,19 @@ class Car(Vehicle):
         self.display()
         print(f"Fuel Type: {self.fuel_type}")
 
+<<<<<<< HEAD
 #Method Overridinig
 
+=======
+>>>>>>> phase-2
 # Example
 car1 = Car("Tesla", 4, "Electric")
 car1.show_details()
 
+<<<<<<< HEAD
+=======
+#Method Overriding
+>>>>>>> phase-2
 class Employee:
     def work(self):
         print("Employee works 8 hours a day.")
@@ -47,8 +62,11 @@ class Developer(Employee):
     def work(self):
         print("Developer writes code 10 hours a day.")
 
+<<<<<<< HEAD
 #multilevel inheritance
 
+=======
+>>>>>>> phase-2
 # Example
 emp = Employee()
 dev = Developer()
@@ -56,7 +74,11 @@ dev = Developer()
 emp.work()   # Parent method
 dev.work()   # Overridden method
 
+<<<<<<< HEAD
 
+=======
+#Multilevel Inheritance
+>>>>>>> phase-2
 class GrandParent:
     def greet(self):
         print("Hello from GrandParent!")
