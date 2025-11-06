@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 #Creating Simple Class
->>>>>>> phase-2
 # Define a simple class
 class Student:
     def __init__(self, name, course):
@@ -13,18 +10,10 @@ class Student:
         print(f"Course: {self.course}")
 
 # Create an object
-<<<<<<< HEAD
-student1 = Student("Jithu Viji", "Artificial Intelligence and Data Science")
-student1.show_details()
-
-#multiple steps in class
-
-=======
 student1 = Student("Sanal Acharya", "Artificial Intelligence and Data Science")
 student1.show_details()
 
 #Class With Multiplr Method
->>>>>>> phase-2
 class Calculator:
     def __init__(self, a, b):
         self.a = a
@@ -41,12 +30,7 @@ calc = Calculator(10, 5)
 print("Addition:", calc.add())
 print("Multiplication:", calc.multiply())
 
-<<<<<<< HEAD
-
-# restaurant billing system
-=======
 #example Restaurant billing system
->>>>>>> phase-2
 class Restaurant:
     def __init__(self, name):
         self.name = name
@@ -75,7 +59,3 @@ r.show_menu()
 r.order_item("Paneer Butter Masala", 2)
 r.order_item("Veg Biryani", 1)
 r.final_bill()
-<<<<<<< HEAD
-
-=======
->>>>>>> phase-2

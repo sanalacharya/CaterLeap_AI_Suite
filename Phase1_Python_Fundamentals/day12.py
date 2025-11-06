@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-# -------------------------------
-# CaterLeap Café Manager
-# -------------------------------
-# Author: Sanal Acharya
-# Mentor: Navneeth Sir
-# Phase 1: Python Fundamentals
-# -------------------------------
-=======
 # ================================================================
 # PROJECT: CaterLeap Café Manager
 # OVERALL EXAMPLE – PHASE 1: Python Fundamentals (The Kitchen Prep)
@@ -26,16 +17,14 @@
 # Exception Handling
 # Python Modules (datetime, random)
 # ================================================================
->>>>>>> phase-2
 
 import datetime
 import random
 
-<<<<<<< HEAD
+
 # 1 Variables, Lists, Dictionaries
-=======
 # Variables, Lists, Dictionaries
->>>>>>> phase-2
+
 menu = {
     "Paneer Butter Masala": 180,
     "Veg Biryani": 150,
@@ -44,11 +33,8 @@ menu = {
 }
 orders = []
 
-<<<<<<< HEAD
 # 2 Functions
-=======
 # Functions
->>>>>>> phase-2
 def show_menu():
     """Display available menu items and prices."""
     print("\n----- MENU -----")
@@ -65,21 +51,18 @@ def take_order():
         if qty <= 0:
             raise ValueError("Quantity must be greater than 0!")
         orders.append((item, qty))
-<<<<<<< HEAD
         print(f" Added {qty} × {item}")
-=======
+
         print(f"Added {qty} × {item}")
->>>>>>> phase-2
+
     except ValueError as e:
         print(f" Error: {e}")
     except Exception as e:
         print(" Unexpected error:", e)
 
-<<<<<<< HEAD
+
 # 3 File I/O
-=======
 # File I/O
->>>>>>> phase-2
 def save_bill(bill_text):
     """Save generated bill to a text file."""
     try:
@@ -89,11 +72,10 @@ def save_bill(bill_text):
     except Exception as e:
         print(" Failed to save bill:", e)
 
-<<<<<<< HEAD
+
 # 4 Classes & Objects
-=======
 # Classes & Objects
->>>>>>> phase-2
+
 class Bill:
     """Generate and manage customer bill."""
     def __init__(self, orders):
@@ -116,11 +98,9 @@ class Bill:
         bill_text += f"\nDate: {datetime.datetime.now().strftime('%d-%b-%Y %H:%M:%S')}"
         save_bill(bill_text)
 
-<<<<<<< HEAD
+
 # 5 Inheritance
-=======
 # Inheritance
->>>>>>> phase-2
 class DiscountedBill(Bill):
     """Extended Bill class with discount functionality."""
     def __init__(self, orders, discount):
@@ -135,15 +115,15 @@ class DiscountedBill(Bill):
         print(f"Final Total: ₹{final_total}")
 
         # Random offer from random module
-<<<<<<< HEAD
+
         offer = random.choice([" Free Dessert", " 5% Off Next Visit", " Free Soup", " Lucky Draw Entry"])
         print(f"\nToday’s Special Offer: {offer}")
         print("\nBill generated on:", datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S"))
-=======
+
         offer = random.choice([" Free Dessert", "5% Off Next Visit", " Free Soup", " Lucky Draw Entry"])
         print(f"\nToday’s Special Offer: {offer}")
         print("\n Bill generated on:", datetime.datetime.now().strftime("%d-%b-%Y %H:%M:%S"))
->>>>>>> phase-2
+
 
 # Program Flow (Conditionals + Functions)
 show_menu()
@@ -153,11 +133,10 @@ while True:
     if more.lower() != 'y':
         break
 
-<<<<<<< HEAD
 # Generate Bill with Exception Handling
-=======
+
 #  Generate Bill with Exception Handling
->>>>>>> phase-2
+
 try:
     discount = int(input("\nEnter discount percentage (0 if none): "))
     if discount < 0:
